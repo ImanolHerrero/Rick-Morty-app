@@ -1,0 +1,25 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.routeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.routeContainer h1 {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #2F4368;
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+}

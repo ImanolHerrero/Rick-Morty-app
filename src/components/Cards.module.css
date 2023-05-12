@@ -1,0 +1,15 @@
+/* .divContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: normal;
+    padding: 5rem;
+} */
+
+.divContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    background-color: #f5f5f5;
+}

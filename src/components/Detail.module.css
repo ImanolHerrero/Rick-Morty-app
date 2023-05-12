@@ -1,0 +1,17 @@
+span {
+    font-weight: 500;
+}
+
+.divContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding: 5rem;
+}
+
+.imgContainer {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+}
